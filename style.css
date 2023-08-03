@@ -2,7 +2,9 @@ body{
     background-color: rgb(218, 227, 235);
 }
 #header{
-    background-color: rgb(192, 236, 221);
+    background: linear-gradient(300deg, #68ca79, #b7dbc9, #22a9e7);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
     padding: 20px;
    
     display: flex;
